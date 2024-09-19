@@ -28,7 +28,7 @@ python finetune_mnist_cifar.py -c cuda:0 -d fashionmnist
 ```
 
 #### LeQua datasets
-Download the lequa data and place it in the lequa directory (https://zenodo.org/record/6546188#.Y85gZafMKHs).
+Download the lequa data and place it in the lequa directory (https://zenodo.org/record/6546188#.Y85gZafMKHs and https://zenodo.org/records/11661820).
 Create the directory for the output of the models:
 ```bash
 cd experiments/paper
@@ -40,6 +40,8 @@ Train the deep learning models with:
 ```bash
 ./train_lequa_T1A.sh
 ./train_lequa_T1B.sh
+./train_lequa_T1.sh
+./train_lequa_T2.sh
 ```
 
-Check the results with help of the jupyter notebook results.ipynb
+Check the results with help of the jupyter notebook ```results.ipynb```
