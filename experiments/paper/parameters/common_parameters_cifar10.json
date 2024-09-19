@@ -1,0 +1,26 @@
+{
+    "train_epochs": 1000,
+    "test_epochs": 1,
+    "start_lr": 0.0005,
+    "end_lr": 0.00001,
+    "lr_factor": 0.5,
+    "n_bags": [
+        500,
+        300,
+        1
+    ],
+    "linear_sizes": [
+        2048
+    ],
+    "bag_size": 500,
+    "batch_size": 10,
+    "gradient_accumulation": 5,
+    "weight_decay": 0.00001,
+    "patience": 20,
+    "dropout": 0.5,
+    "use_labels": false,
+    "verbose": 8,
+    "dataset_name": "CIFAR10",
+    "tensorboard_dir": "runs/CIFAR10",
+    "use_wandb": true
+}

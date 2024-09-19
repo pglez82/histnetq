@@ -1,0 +1,4 @@
+{
+    "n_bins": 32,
+    "histogram": "softrbf"
+}

@@ -1,0 +1,6 @@
+{
+    "trans_out_size": 512,
+    "trans_ind_points": 32,
+    "trans_hidden_dim": 256,
+    "trans_heads": 4
+}

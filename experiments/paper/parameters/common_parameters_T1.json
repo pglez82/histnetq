@@ -1,0 +1,28 @@
+{
+    "train_epochs": 1000,
+    "test_epochs": 1,
+    "start_lr": 0.0001,
+    "end_lr": 0.00001,
+    "lr_factor": 0.5,
+    "n_bags": [
+        1000,
+        300,
+        1
+    ],
+    "linear_sizes": [
+        2048,
+        2048,
+        2048
+    ],
+    "bag_size": 250,
+    "batch_size": 20,
+    "gradient_accumulation": 1,
+    "weight_decay": 0.00001,
+    "patience": 20,
+    "dropout": 0.5,
+    "use_labels": false,
+    "verbose": 8,
+    "dataset_name": "lequaT1B",
+    "tensorboard_dir": "runs/T1B",
+    "use_wandb": true
+}

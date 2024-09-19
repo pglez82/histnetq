@@ -1,0 +1,26 @@
+{
+    "train_epochs": 1000,
+    "test_epochs": 1,
+    "start_lr": 0.0003,
+    "end_lr": 0.00001,
+    "lr_factor": 0.5,
+    "n_bags": [
+        500,
+        300,
+        1
+    ],
+    "linear_sizes": [
+        1024
+    ],
+    "bag_size": 500,
+    "batch_size": 2,
+    "gradient_accumulation": 1,
+    "weight_decay": 0,
+    "patience": 10,
+    "dropout": 0.1,
+    "use_labels": false,
+    "verbose": 8,
+    "dataset_name": "FASHION_MNIST",
+    "tensorboard_dir": "runs/FASHION_MNIST",
+    "use_wandb": true
+}
